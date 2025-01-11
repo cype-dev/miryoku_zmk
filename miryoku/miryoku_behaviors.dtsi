@@ -11,6 +11,28 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
+    u_mt_l: u_mt {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      require-prior-idle-ms = <150>;
+      quick-tap-ms = <175>;
+      flavor = "balanced";
+      bindings = <&kp>, <&kp>;
+      hold-trigger-key-positions = <HOLD_TRIGGER_KEYS_RIGHT HOLD_TRIGGER_THUMBS>;
+      hold-trigger-on-release;
+    };
+    u_mt_r: u_mt {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      require-prior-idle-ms = <150>;
+      quick-tap-ms = <175>;
+      flavor = "balanced";
+      bindings = <&kp>, <&kp>;
+      hold-trigger-key-positions = <HOLD_TRIGGER_KEYS_LEFT HOLD_TRIGGER_THUMBS>;
+      hold-trigger-on-release;
+    };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
