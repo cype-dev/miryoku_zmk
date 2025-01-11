@@ -11,7 +11,7 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-    u_mt_l: u_mt {
+    u_mt_l: u_mt_l {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
@@ -22,7 +22,7 @@
       hold-trigger-key-positions = <HOLD_TRIGGER_KEYS_RIGHT HOLD_TRIGGER_THUMBS>;
       hold-trigger-on-release;
     };
-    u_mt_r: u_mt {
+    u_mt_r: u_mt_r {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
