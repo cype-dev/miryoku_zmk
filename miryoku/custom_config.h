@@ -36,7 +36,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),LR(U_NAV, SPACE),  U_LT
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,     \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT, \
 U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,   \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           U_LT(U_INTL, BSPC),&kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           LS(U_INTL, U_INTL),&kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_INTL \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp RA(Y),         U_NA,              U_NA,      \
