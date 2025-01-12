@@ -46,6 +46,7 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&mo>, <&sl>;
+      ignore-modifiers;
     };
     u_lr: layer_repeat {
       compatible = "zmk,behavior-hold-tap";
