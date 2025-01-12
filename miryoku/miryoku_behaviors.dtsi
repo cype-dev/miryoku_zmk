@@ -40,13 +40,16 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
+    u_sl: sticky_layer_modifiers {
+      compatible = "zmk,behavior-sticky-layer";
+      ignore-modifiers;
+    };
     u_ls: layer_sticky {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
-      bindings = <&mo>, <&sl>;
-      ignore-modifiers;
+      bindings = <&mo>, <&u_sl>;
     };
     u_lr: layer_repeat {
       compatible = "zmk,behavior-hold-tap";
