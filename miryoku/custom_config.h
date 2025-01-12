@@ -39,7 +39,7 @@ U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           U_LT(U_INTL, BSPC),&kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_INTL \
-U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp RA(y),         U_NA,              U_NA,      \
+U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,         U_NA,              U_NA,      \
 U_NA,         U_NA,              U_NA,         U_NA,         U_NA,              U_NA,              U_NA,         U_NA,              U_NA,              U_NA, \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,      \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
