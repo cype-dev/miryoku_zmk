@@ -7,4 +7,5 @@
 #define HML(MOD, TAP) &hml MOD TAP
 #define HMR(MOD, TAP) &hmr MOD TAP
 #define U_LT(LAYER, TAP) &u_lt LAYER TAP
+#define LS(HLAYER, SLAYER) &ls HLAYER SLAYER
 #define LR(LAYER, TAP) &lr LAYER TAP
