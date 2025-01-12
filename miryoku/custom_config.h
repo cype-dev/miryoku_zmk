@@ -1,10 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define MOD_RALT 0x40
-#define APPLY_MODS(mods, keycode) (mods << 24 | keycode)
-#define RA(keycode) APPLY_MODS(MOD_RALT, keycode)
-
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
