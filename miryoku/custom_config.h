@@ -40,7 +40,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_INTL \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp ü,             U_NA,              U_NA,             \
-&kp ä,             U_NA,              &kp ß,             &kp LSHFT,         U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp ö,         \
+&kp ä,             U_NA,              &kp ß,             &kp LSHFT,         U_NA,              U_NA,              &kp LSHFT,         U_NA,              U_NA,              &kp ö,         \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
