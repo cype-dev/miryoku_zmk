@@ -42,6 +42,8 @@
     };
     u_sl: sticky_layer_modifiers {
       compatible = "zmk,behavior-sticky-layer";
+      #binding-cells = <1>;
+      bindings = <&kp>;
       ignore-modifiers;
     };
     u_ls: layer_sticky {
