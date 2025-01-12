@@ -11,7 +11,7 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-    hml: homerow_mod_left {
+    u_hml: homerow_mod_left {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <2000>;
@@ -22,7 +22,7 @@
       hold-trigger-key-positions = <HOLD_TRIGGER_KEYS_RIGHT HOLD_TRIGGER_THUMBS>;
       hold-trigger-on-release;
     };
-    hmr: homerow_mod_right {
+    u_hmr: homerow_mod_right {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <2000>;
@@ -40,14 +40,14 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    ls: layer_sticky {
+    u_ls: layer_sticky {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&mo>, <&sl>;
     };
-    lr: layer_repeat {
+    u_lr: layer_repeat {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
