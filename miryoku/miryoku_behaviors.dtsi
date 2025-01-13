@@ -2,6 +2,17 @@
 // https://github.com/manna-harbour/miryoku
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <150>;
+            key-positions = <14 15>;
+            bindings = <&kp ESC>;
+        };
+    };
+};
+
+/ {
   behaviors {
     u_mt: u_mt {
       compatible = "zmk,behavior-hold-tap";
