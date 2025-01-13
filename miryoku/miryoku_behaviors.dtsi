@@ -80,7 +80,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <34 46>;
+            key-positions = <33 36>;
             bindings = <&u_lht 10 10>;
         };
     };
