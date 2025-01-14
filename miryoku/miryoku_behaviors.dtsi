@@ -5,6 +5,7 @@
     macros {
         u_bc: bluetooth_clear_profile {
             compatible = "zmk,behavior-macro-one-param";
+            wait-ms = <0>;
             #binding-cells = <1>;
             bindings = <&macro_param_1to2>,
                        <&bt BT_SEL MACRO_PLACEHOLDER>,
