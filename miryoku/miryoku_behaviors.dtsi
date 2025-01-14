@@ -1,6 +1,17 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+/ {
+    macros {
+        u_bc: bluetooth_clear_profile {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1>,
+                       <&bt BT_SEL MACRO_PLACEHOLDER>,
+                       <&bt BT_CLR>;
+        };
+    };
+};
 
 / {
   behaviors {
@@ -75,7 +86,7 @@
     u_bc_0: bluetooth_clear_0 {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&bt BT_DISC 0>, <&bt BT_SEL 0 &bt BT_CLR>;
+      bindings = <&bt BT_DISC 0>, <&u_bc 0>;
       mods = <(MOD_LCTL|MOD_RCTL)>;
     };
     u_bd_0: bluetooth_disconnect_0 {
@@ -87,7 +98,7 @@
     u_bc_1: bluetooth_clear_1 {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&bt BT_DISC 1>, <&bt BT_SEL 1 &bt BT_CLR>;
+      bindings = <&bt BT_DISC 1>, <&u_bc 1>;
       mods = <(MOD_LCTL|MOD_RCTL)>;
     };
     u_bd_1: bluetooth_disconnect_1 {
@@ -99,7 +110,7 @@
     u_bc_2: bluetooth_clear_2 {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&bt BT_DISC 2>, <&bt BT_SEL 2 &bt BT_CLR>;
+      bindings = <&bt BT_DISC 2>, <&u_bc 2>;
       mods = <(MOD_LCTL|MOD_RCTL)>;
     };
     u_bd_2: bluetooth_disconnect_2 {
@@ -111,7 +122,7 @@
     u_bc_3: bluetooth_clear_3 {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&bt BT_DISC 3>, <&bt BT_SEL 3 &bt BT_CLR>;
+      bindings = <&bt BT_DISC 3>, <&u_bc 3>;
       mods = <(MOD_LCTL|MOD_RCTL)>;
     };
     u_bd_3: bluetooth_disconnect_3 {
