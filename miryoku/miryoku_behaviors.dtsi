@@ -114,10 +114,10 @@
       bindings = <&bt BT_DISC 3>, <&bt BT_SEL 3 &bt BT_CLR>;
       mods = <(MOD_LCTL|MOD_RCTL)>;
     };
-    u_bd_3: bluetooth_disconnect_2 {
+    u_bd_3: bluetooth_disconnect_3 {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&bt BT_SEL 3>, <&u_bc_2>;
+      bindings = <&bt BT_SEL 3>, <&u_bc_3>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
     };
   };
