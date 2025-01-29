@@ -38,6 +38,12 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_out_tog,        &u_bd_0,           &u_bd_1,           &u_bd_2,           &u_bd_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
+#define MIRYOKU_LAYER_TAP \
+&kp Q,             &kp ?,             &kp ?,             &kp ?,             &kp ?,             U_NA,             U_NA,             U_NA,              U_NA,              U_NA,           \
+&kp A,             &kp W,             &kp ?,             &kp ?,             &kp ?,             U_NA,             U_NA,             U_NA,              U_NA,              U_NA,             \
+&kp ?,             &kp S,             &kp D,             &kp ?,             &kp ?,             U_NA,             U_NA,             U_NA,              U_NA,              U_NA,         \
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp C,             U_NA,             U_NA,             &kp DEL,           U_NP,              U_NP
+
 #define MIRYOKU_LAYER_INTL \
 U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              &kp RA(Y),         U_NA,              U_NA,      \
 &kp RA(Q),         U_NA,              &kp RA(S),         &kp LSHFT,         U_NA,              U_NA,              &kp LSHFT,         U_NA,              U_NA,              &kp RA(P), \
